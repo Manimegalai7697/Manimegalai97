@@ -5,6 +5,8 @@ import java.util.Scanner;
 
 
 
+
+
 public class Main {
 
 	public static void main(String[] args)throws IOException {
@@ -32,6 +34,9 @@ public class Main {
 
 		}
 		manager.displayAllLaps(l);
+		
+		manager.displayFastestInLap(l,(byte)103);
+		manager.displayMaximumThrows(l);
 
 		}
 
