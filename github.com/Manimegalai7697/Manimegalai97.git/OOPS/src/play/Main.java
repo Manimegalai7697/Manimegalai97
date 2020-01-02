@@ -8,8 +8,7 @@ public class Main {
 
 	public static void main(String[] args) throws IOException {
 		
-		// TODO Auto-generated method stub
-		
+				
 		InputStreamReader sr = new InputStreamReader(System.in);
 		BufferedReader br = new BufferedReader(sr);
 		String str1,str2;
