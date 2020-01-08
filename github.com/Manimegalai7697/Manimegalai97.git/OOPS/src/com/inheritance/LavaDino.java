@@ -4,7 +4,7 @@ public class LavaDino extends Lava {
 	
 	private boolean hasHeatResistance;
 	
-	public LavaDino(String species,String locomotionType,boolean hasHeatResistance) {
+	public LavaDino(String species,String locomotionType,boolean hasHeatResistance, boolean hasheatresistance2) {
 		super(species,locomotionType);
 		
 		this.hasHeatResistance = hasHeatResistance;
@@ -32,5 +32,9 @@ public class LavaDino extends Lava {
 	
 	
 		}
+	public void displaydinodetails() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }

@@ -15,10 +15,6 @@ public class Dinosaur {
 		species=s.nextLine();
 		locomotionType=s.nextLine();
 		hasHeatResistance  =s.nextBoolean();
-		LavaDino l=new LavaDino(species,locomotionType,hasHeatResistance);
-		      l.display(species,locomotionType,hasHeatResistance);
-		
-		 l.display(species,locomotionType,hasHeatResistance);
 		
 		
 		

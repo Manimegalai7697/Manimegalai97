@@ -1,7 +1,7 @@
 package com.inheritance;
 
 public class Lava {
-	private String species;
+	protected String species;
 	private String locomotionType;
 
 	
